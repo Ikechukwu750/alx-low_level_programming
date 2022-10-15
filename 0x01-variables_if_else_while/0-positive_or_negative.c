@@ -3,7 +3,8 @@
 #include <time.h>
 
 /**
- * main - A function that checks a random number and tells if it is +ve, -ve or zero
+ * main - A function that checks a random number and tells if it is
+ * +ve, -ve or zero
  * Return: Always 0 (Success)
  */
 int main(void)

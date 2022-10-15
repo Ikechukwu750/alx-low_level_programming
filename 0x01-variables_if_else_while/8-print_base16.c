@@ -8,10 +8,15 @@
 int main(void)
 {
 	int num;
+	char ch;
 
-	for (num = 0; num < 10; num++)
+	for (num = 48; num < 58; num++)
 	{
-	printf("%d", num);
+		putchar(num);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);	
 	}
 	putchar('\n');
 	return (0);
